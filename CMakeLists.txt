@@ -3,4 +3,6 @@ project(GuessingGame)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(GuessingGame main.cpp)
+add_executable(GuessingGame main.cpp
+        statisticalWeights.cpp
+        statisticalWeights.h)
